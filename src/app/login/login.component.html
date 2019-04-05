@@ -1,0 +1,14 @@
+{{titleLogin}}
+
+<div class="main-content">
+    <span>UserName</span>
+    <hr>
+    <input type="text" pInputText [(ngModel)]="username"/>
+    <hr>
+    <span>Password</span>
+    <hr>
+    <input type="password" pInputText [(ngModel)]="password"/>
+    <hr>
+    <p-button label="Login" (onClick)="login($event)"></p-button>
+
+</div>

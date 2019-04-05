@@ -1,0 +1,13 @@
+@import "../node_modules/primeng/resources/primeng.css";
+@import "../node_modules/primeng/resources/themes/omega/theme.css";
+
+.main-content{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+hr{
+    height: 0px;
+    visibility: hidden;
+}
